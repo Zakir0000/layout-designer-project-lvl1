@@ -1,0 +1,57 @@
+/* стили урок 1 */
+:root { 
+    --white: #fff;
+    --clear-white: #d7ccc0;
+    --light: #f5f4f0;
+    --bisic: #fe8a02;
+    --basic-dark: #42413c;
+    --dark: #2a2626;
+    --clear-dark: #908d8b;
+    --brown: #b09a81;
+    --blue: #1085c5;
+}
+
+@font-face {
+    font-family: "Neucha";
+    font-weight: normal;
+    src: url("../fonts/Neucha-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-weight: normal;
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+body {
+    font-family: 16px/1.6em "Open Sans", sans-serif;
+    color: var(--dark);
+}
+
+h1,
+h2,
+h3 {
+    color: var(--dark);
+    font-family: "Neucha", "Times New Roman", cursive;
+    line-height: 1.2em;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 34px;
+}
+
+.content-1 {
+    max-width: 1110px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+

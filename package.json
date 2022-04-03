@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Zakir0000/layout-designer-project-lvl1/issues"
   },
-  "homepage": "https://github.com/Zakir0000/layout-designer-project-lvl1#readme"
+  "homepage": "https://github.com/Zakir0000/layout-designer-project-lvl1#readme",
+  "keywords": [],
+  "devDependencies": {
+    "html-linter": "^1.1.1"
+  }
 }

@@ -140,19 +140,19 @@
   .h4 {
     font-weight: normal;
     font-size: 24px;
-    font-family: "Neucha", sans-serif;
+    font-family:'Neucha', sans-serif;
     line-height: 1.2em;
   }
   
   /** FONTS **/
-  @font-face {
-    font-family: "Neucha";
-    src: url(/fonts/Neucha-Regular.ttf);
-  }
+  
+    
+
+
   
   @font-face {
     font-family: "Open Sans";
-    src: url(/fonts/OpenSans-Regular.ttf);
+    src: url(./fonts/OpenSans-Regular.ttf);
   }
   
   .font-size-13 {

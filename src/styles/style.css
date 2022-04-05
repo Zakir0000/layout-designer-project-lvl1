@@ -14,19 +14,19 @@
 @font-face {
   font-weight: 400;
   font-family: "Open Sans";
-  src: url(../fonts/OpenSans-Regular.ttf);
+  src: url('../fonts/OpenSans-Regular.ttf');
 }
 
 @font-face {
   font-weight: 700;
   font-family: "Open Sans";
-  src: url(../fonts/OpenSans-Bold.ttf);
+  src: url('../fonts/OpenSans-Bold.ttf');
 }
 
 @font-face {
   font-weight: 400;
-  font-family: "Neucha";
-  src: url(../fonts/Neucha-Regular.ttf);
+  font-family: Neucha;
+  src: url('../fonts/Neucha-Regular.ttf');
 }
 
 body {
@@ -92,7 +92,7 @@ h2,
 h3 {
   color: var(--primary);
 
-  font-family: "Neucha", serif;
+  font-family: Neucha, serif;
   line-height: 1.3em;
 }
 
@@ -134,7 +134,7 @@ img {
 
   opacity: 0.1;
 
-  content: '';
+  content: "";
 }
 
 .bg-primary-dark {
@@ -169,7 +169,7 @@ p {
 
   transform: translateX(-50%);
 
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
 }
 
 .navigation-item {
@@ -205,19 +205,19 @@ a.navigation-item:hover {
   margin-bottom: 40px;
 
   color: var(--primary-dark);
-  font: 64px/1 "Neucha", serif;
+  font: 64px/1 Neucha, serif;
 }
 
 .before-header-section {
   font-size: 24px;
-  font-family: "Neucha", serif;
+  font-family: Neucha, serif;
 }
 
 .cm-description {
   margin-top: 30px;
 
   font-size: 34px;
-  font-family: "Neucha", serif;
+  font-family: Neucha, serif;
   line-height: 41px;
 }
 
@@ -323,6 +323,7 @@ div.col-2 p:last-of-type {
 
   height: 20px;
   padding: 15px;
+
   border: 0;
 }
 
@@ -332,6 +333,7 @@ div.col-2 p:last-of-type {
   width: 70px;
   height: 50px;
   padding: 0;
+
   border: 0;
 }
 
@@ -441,5 +443,5 @@ div.col-2 p:last-of-type {
 }
 
 .shadow {
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
 }

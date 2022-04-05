@@ -168,8 +168,6 @@ p {
   z-index: 1;
 
   transform: translateX(-50%);
-
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 .navigation-item {
@@ -440,8 +438,4 @@ div.col-2 p:last-of-type {
 
 .white-semiopacity {
   color: var(--white-semiopacity);
-}
-
-.shadow {
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }

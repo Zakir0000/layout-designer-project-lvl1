@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Zakir0000/layout-designer-project-lvl1#readme",
   "keywords": [],
   "devDependencies": {
+    "eslint": "^8.12.0",
     "html-linter": "^1.1.1"
   }
 }
